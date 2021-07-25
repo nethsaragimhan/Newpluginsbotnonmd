@@ -19,22 +19,20 @@ DATABASE_URL = process.env.DATABASE_URL === undefined ? './whatsasena.db' : proc
 DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBUG);
 
 module.exports = {
-    VERSION: 'v1.3.2 Global Stable',
-    CHANNEL: 'https://t.me/remasterplugin',
+    VERSION: 'v3.1 Global Stable',
+    CHANNEL: 'https://chat.whatsapp.com/B5r06KogQix9xhRDjY4NkP',
     SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
-    ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
-    AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
     LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
+    ALIVE_LOGO: process.env.ALIVE_LOGO === undefined ?  'https://telegra.ph/file/d34f1216d80604adb4f43.jpg' : process.env.ALIVE_LOGO,
+    GIF_WEL: process.env.GIF_WEL === undefined ? 'https://telegra.ph/file/4ce438f1111969bdd9df1.mp4' : process.env.GIF_WEL,
+    GIF_BYE: process.env.GIF_BYE === undefined ? 'https://telegra.ph/file/913e1025377cd11246775.gif' : process.env.GIF_BYE,
+    CAPTION_KEY: process.env.CAPTION_KEY === undefined ?'Made by RAVANA' : process.env.CAPTION_KEY,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    BGMFILTER: process.env.BGM_FILTER === undefined ? false : convertToBool(process.env.BGM_FILTER),
-    DISBGM: process.env.DISABLE_JID_BGM_FILTER === undefined ? false : process.env.DISABLE_JID_BGM_FILTER,
-    NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
-    FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     BLOCKMSG: process.env.BLOCK_MESSAGE === undefined ? 'default' : process.env.BLOCK_MESSAGE,
     UNBLOCKMSG: process.env.UNBLOCK_MESSAGE === undefined ? 'default' : process.env.UNBLOCK_MESSAGE,
     UNMUTEMSG: process.env.UNMUTE_MESSAGE === undefined ? 'default' : process.env.UNMUTE_MESSAGE,
@@ -43,7 +41,9 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
+    HANDLERS: process.env.HANDLERS === undefined ? '^[.]' : process.env.HANDLERS,
+    MENUTEXT: process.env.MENU_TEXT === undefined ?'*RAVANA💢*' : process.env.MENU_TEXT,
+    MENU_LOGO: process.env.MENU_LOGO === undefined ?  'https://telegra.ph/file/000e36957e64bf5631335.jpg' : process.env.MENU_LOGO,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     BRANCH: 'master',
     HEROKU: {
@@ -61,5 +61,5 @@ module.exports = {
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     SUPPORT: "905524317852-1612300121",
     SUPPORT2: "905511384572-1617736751",
-    SUPPORT3: "905511384572-1621015274"
+    OWN: "905511384572,0"
 };
