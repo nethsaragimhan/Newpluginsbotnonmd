@@ -22,7 +22,7 @@
             "value": "EN"
         },
         "CAPTION_KEY": {
-            "description": "Photo caption ;Beta version, logo/ image පහලින් (captain) සදහා අවශ්‍ය නම යොදන්න. උදා:- Made By Ravana.",
+            "description": "Photo caption ;Beta version, logo/ image පහලින් (captain) සදහා අවශ්‍ය නම යොදන්න. උදා:- Made By DATA THIEVES.",
             "required": true
         },
         "HANDLERS": {
@@ -38,7 +38,7 @@
 	"MENU_LOGO": {
             "description": "menu එකේ පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න.",
             "required": true,
-            "value": "https://telegra.ph/file/000e36957e64bf5631335.jpg"
+            "value": "https://telegra.ph/file/3f3740c3e61fc021dca16.png"
         },
         "SEND_READ": {
             "description": "ඔබට දැකීමට අවශ්‍ය නම් true ලෙස ටයිප් කරන්න..",
@@ -80,7 +80,7 @@
             "value": "default"
         },
         "WORK_TYPE": {
-            "description": "RAVANA Working Type. ඔබ “පොදු” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “පුද්ගලික” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ටුව භාවිතා කළ හැක්කේ ඔබට පමණි.",
+            "description": "DATA THIEVES Working Type. ඔබ “පොදු” භාවිතා කරන්නේ නම්, සෑම කෙනෙකුටම බොට් භාවිතා කළ හැකිය. වෙනත් ආකාරයකින් ඔබ “පුද්ගලික” භාවිතා කරන්නේ නම්, ඔබේ බෝට්ටුව භාවිතා කළ හැක්කේ ඔබට පමණි.",
             "required": true,
             "value": "public"
         },
@@ -96,17 +96,17 @@
         "ALIVE_LOGO": {
             "description": "Alive message පින්තූරය වෙනස් කිරීම සඳහා ඔබගේ image link පහත සඳහන් කරන්න.",
             "required": true,
-            "value": "https://telegra.ph/file/d34f1216d80604adb4f43.jpg"
+            "value": "https://telegra.ph/file/3f3740c3e61fc021dca16.png"
         },
         "GIF_WEL": {
             "description": "Welcome message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
             "required": true,
-            "value": "https://telegra.ph/file/4ce438f1111969bdd9df1.mp4"
+            "value": "https://telegra.ph/file/3f3740c3e61fc021dca16.png"
         },
         "GIF_BYE": {
             "description": "Goodbye message video වෙනස් කිරීම සඳහා ඔබගේ video link පහත සඳහන් කරන්න.",
             "required": true,
-            "value": "https://telegra.ph/file/913e1025377cd11246775.gif"
+            "value": "https://telegra.ph/file/3f3740c3e61fc021dca16.png"
         },
         "REMOVE_BG_API_KEY": {
             "description": "ඡායාරූප වල පසුබිම ඉවත් කරයි. https://remove.bg",
