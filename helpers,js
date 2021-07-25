@@ -3,13 +3,13 @@
 */
 
 function successfullMessage(msg) {
-    return "✅ *RAVANA*:  ```" + msg + "```"
+    return "✅ *DATA THIEVES*:  ```" + msg + "```"
 }
 function errorMessage(msg) {
-    return "🛑 *RAVANA*:  ```" + msg + "```"
+    return "🛑 *DATA THIEVES*:  ```" + msg + "```"
 }
 function infoMessage(msg) {
-    return "⏺️ *RAVANA*:  ```" + msg + "```"
+    return "⏺️ *DATA THIEVES*:  ```" + msg + "```"
 }
 
 
